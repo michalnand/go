@@ -1,0 +1,43 @@
+#ifndef _GO_DATASET_H_
+#define _GO_DATASET_H_
+
+#include "Goban.h"
+
+#include <json_config.h>
+#include <dataset_interface.h>
+
+#include "go_defs.h"
+
+class GoDataset: public DatasetInterface
+{
+  private:
+    unsigned int board_size, padding;
+
+    Json::Value json_init;
+
+
+  public:
+    GoDataset(const char* json_file_name);
+    GoDataset(std::string json_file_name);
+    GoDataset(Json::Value json_init);
+
+    void create();
+
+  private:
+    int init(Json::Value json_init);
+
+    void play_path(std::string path, unsigned int max_count, bool testing);
+    int play_game(std::string sgf_file_name, bool testing);
+
+    void board_to_input(std::vector<float> &input, GoBoard &board, GoMove &move, unsigned int rotation);
+    void moves_to_output(std::vector<float> &output, GoMove &move, unsigned int rotation);
+  private:
+    sDatasetItem dataset_item;
+
+    sGoPoint augmentation(int x, int y, unsigned int rotation);
+
+
+};
+
+
+#endif

@@ -1,0 +1,995 @@
+initializing
+training size    : 2324140
+testing size     : 20012
+epoch count      : 10
+sub epoch size   : 10
+
+epoch_learning_rate_decay   : 8
+learning_rate_decay         : 0.250000
+batch size                  : 1133546
+
+training
+
+
+
+epoch [0 0] from [10 10]
+training time per iterations 4.950674[ms]
+testing
+testing done
+network success rate top1 14.901059% 13.272037% 
+network success rate top5 49.825104% 43.244053% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 49.825104%
+
+
+
+epoch [0 1] from [10 10]
+training time per iterations 4.953221[ms]
+testing
+testing done
+network success rate top1 22.681391% 18.558865% 
+network success rate top5 57.460526% 49.980011% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 57.460526%
+
+
+
+epoch [0 2] from [10 10]
+training time per iterations 4.956969[ms]
+testing
+testing done
+network success rate top1 25.269838% 19.098541% 
+network success rate top5 59.094543% 51.713970% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 59.094543%
+
+
+
+epoch [0 3] from [10 10]
+training time per iterations 4.951376[ms]
+testing
+testing done
+network success rate top1 25.794523% 19.863083% 
+network success rate top5 59.924046% 52.658405% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 59.924046%
+
+
+
+epoch [0 4] from [10 10]
+training time per iterations 5.063890[ms]
+testing
+testing done
+network success rate top1 26.773935% 20.537678% 
+network success rate top5 60.468719% 53.352989% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 60.468719%
+
+
+
+epoch [0 5] from [10 10]
+training time per iterations 4.952567[ms]
+testing
+testing done
+network success rate top1 26.998800% 20.617630% 
+network success rate top5 61.243256% 54.207474% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 61.243256%
+
+
+
+epoch [0 6] from [10 10]
+training time per iterations 4.951014[ms]
+testing
+testing done
+network success rate top1 27.208675% 21.082350% 
+network success rate top5 62.382572% 54.807117% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 62.382572%
+
+
+
+epoch [0 7] from [10 10]
+training time per iterations 4.949491[ms]
+testing
+testing done
+network success rate top1 27.958225% 21.637018% 
+network success rate top5 62.957226% 55.966419% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 62.957226%
+
+
+
+epoch [0 8] from [10 10]
+training time per iterations 4.956337[ms]
+testing
+testing done
+network success rate top1 27.748350% 22.191685% 
+network success rate top5 62.747353% 55.516689% 
+
+
+
+epoch [0 9] from [10 10]
+training time per iterations 5.061834[ms]
+testing
+testing done
+network success rate top1 28.253048% 22.076754% 
+network success rate top5 62.892265% 55.241856% 
+
+
+
+epoch [1 0] from [10 10]
+training time per iterations 4.954865[ms]
+testing
+testing done
+network success rate top1 28.522886% 23.196083% 
+network success rate top5 63.317009% 56.501099% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 63.317009%
+
+
+
+epoch [1 1] from [10 10]
+training time per iterations 4.956823[ms]
+testing
+testing done
+network success rate top1 28.802719% 23.031181% 
+network success rate top5 63.531879% 56.680992% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 63.531879%
+
+
+
+epoch [1 2] from [10 10]
+training time per iterations 4.956513[ms]
+testing
+testing done
+network success rate top1 29.447332% 22.356586% 
+network success rate top5 63.891666% 55.926445% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 63.891666%
+
+
+
+epoch [1 3] from [10 10]
+training time per iterations 4.953781[ms]
+testing
+testing done
+network success rate top1 29.262442% 23.066160% 
+network success rate top5 63.606834% 57.075756% 
+
+
+
+epoch [1 4] from [10 10]
+training time per iterations 5.061150[ms]
+testing
+testing done
+network success rate top1 29.622227% 24.000599% 
+network success rate top5 63.531879% 57.445534% 
+
+
+
+epoch [1 5] from [10 10]
+training time per iterations 4.952529[ms]
+testing
+testing done
+network success rate top1 29.722166% 23.870678% 
+network success rate top5 64.251450% 57.885269% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 64.251450%
+
+
+
+epoch [1 6] from [10 10]
+training time per iterations 4.948390[ms]
+testing
+testing done
+network success rate top1 30.121927% 24.130522% 
+network success rate top5 64.586250% 57.915253% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 64.586250%
+
+
+
+epoch [1 7] from [10 10]
+training time per iterations 4.957145[ms]
+testing
+testing done
+network success rate top1 30.426744% 24.230461% 
+network success rate top5 65.580650% 58.514893% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 65.580650%
+
+
+
+epoch [1 8] from [10 10]
+training time per iterations 4.956190[ms]
+testing
+testing done
+network success rate top1 30.626623% 23.705776% 
+network success rate top5 65.710571% 57.670399% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 65.710571%
+
+
+
+epoch [1 9] from [10 10]
+training time per iterations 5.063714[ms]
+testing
+testing done
+network success rate top1 30.526684% 24.785130% 
+network success rate top5 65.150909% 59.384369% 
+
+
+
+epoch [2 0] from [10 10]
+training time per iterations 4.966431[ms]
+testing
+testing done
+network success rate top1 31.021387% 24.405357% 
+network success rate top5 65.515694% 58.699780% 
+
+
+
+epoch [2 1] from [10 10]
+training time per iterations 4.959434[ms]
+testing
+testing done
+network success rate top1 30.996403% 24.365381% 
+network success rate top5 65.895462% 59.529282% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 65.895462%
+
+
+
+epoch [2 2] from [10 10]
+training time per iterations 4.960674[ms]
+testing
+testing done
+network success rate top1 31.391165% 25.149910% 
+network success rate top5 66.535080% 59.984009% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 66.535080%
+
+
+
+epoch [2 3] from [10 10]
+training time per iterations 4.960200[ms]
+testing
+testing done
+network success rate top1 32.085747% 25.449730% 
+network success rate top5 67.024788% 60.248852% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 67.024788%
+
+
+
+epoch [2 4] from [10 10]
+training time per iterations 5.066902[ms]
+testing
+testing done
+network success rate top1 31.945833% 25.854486% 
+network success rate top5 67.409554% 60.538677% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 67.409554%
+
+
+
+epoch [2 5] from [10 10]
+training time per iterations 4.953738[ms]
+testing
+testing done
+network success rate top1 32.070759% 26.049370% 
+network success rate top5 67.734360% 60.403759% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 67.734360%
+
+
+
+epoch [2 6] from [10 10]
+training time per iterations 4.954426[ms]
+testing
+testing done
+network success rate top1 32.280632% 25.674595% 
+network success rate top5 67.364578% 60.498699% 
+
+
+
+epoch [2 7] from [10 10]
+training time per iterations 4.943872[ms]
+testing
+testing done
+network success rate top1 32.505497% 25.794523% 
+network success rate top5 68.004196% 61.193283% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 68.004196%
+
+
+
+epoch [2 8] from [10 10]
+training time per iterations 4.952817[ms]
+testing
+testing done
+network success rate top1 32.600441% 25.834499% 
+network success rate top5 67.919250% 60.968418% 
+
+
+
+epoch [2 9] from [10 10]
+training time per iterations 5.064475[ms]
+testing
+testing done
+network success rate top1 32.290627% 26.439137% 
+network success rate top5 66.849892% 61.558064% 
+
+
+
+epoch [3 0] from [10 10]
+training time per iterations 4.949336[ms]
+testing
+testing done
+network success rate top1 33.374973% 26.748951% 
+network success rate top5 67.829300% 61.772938% 
+
+
+
+epoch [3 1] from [10 10]
+training time per iterations 4.947335[ms]
+testing
+testing done
+network success rate top1 32.765339% 26.614031% 
+network success rate top5 68.194084% 62.667400% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 68.194084%
+
+
+
+epoch [3 2] from [10 10]
+training time per iterations 4.949792[ms]
+testing
+testing done
+network success rate top1 33.305016% 27.033779% 
+network success rate top5 68.234062% 62.117729% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 68.234062%
+
+
+
+epoch [3 3] from [10 10]
+training time per iterations 4.957313[ms]
+testing
+testing done
+network success rate top1 33.974617% 26.928843% 
+network success rate top5 68.508896% 61.922848% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 68.508896%
+
+
+
+epoch [3 4] from [10 10]
+training time per iterations 5.066450[ms]
+testing
+testing done
+network success rate top1 33.764740% 27.413551% 
+network success rate top5 68.783730% 62.467518% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 68.783730%
+
+
+
+epoch [3 5] from [10 10]
+training time per iterations 4.955373[ms]
+testing
+testing done
+network success rate top1 33.629822% 28.113132% 
+network success rate top5 68.598839% 63.511894% 
+
+
+
+epoch [3 6] from [10 10]
+training time per iterations 4.950059[ms]
+testing
+testing done
+network success rate top1 33.994602% 27.893265% 
+network success rate top5 68.783730% 62.642414% 
+
+
+
+epoch [3 7] from [10 10]
+training time per iterations 4.959064[ms]
+testing
+testing done
+network success rate top1 34.014591% 27.753347% 
+network success rate top5 68.448929% 62.637417% 
+
+
+
+epoch [3 8] from [10 10]
+training time per iterations 4.957769[ms]
+testing
+testing done
+network success rate top1 34.274437% 28.407955% 
+network success rate top5 68.159103% 63.976616% 
+
+
+
+epoch [3 9] from [10 10]
+training time per iterations 5.066442[ms]
+testing
+testing done
+network success rate top1 34.119530% 28.382971% 
+network success rate top5 68.343994% 63.686787% 
+
+
+
+epoch [4 0] from [10 10]
+training time per iterations 4.957873[ms]
+testing
+testing done
+network success rate top1 34.264442% 28.073156% 
+network success rate top5 68.538879% 64.151512% 
+
+
+
+epoch [4 1] from [10 10]
+training time per iterations 4.958647[ms]
+testing
+testing done
+network success rate top1 34.864082% 28.792725% 
+network success rate top5 68.563858% 63.921646% 
+
+
+
+epoch [4 2] from [10 10]
+training time per iterations 4.959198[ms]
+testing
+testing done
+network success rate top1 35.423744% 28.462923% 
+network success rate top5 69.393364% 64.116531% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 69.393364%
+
+
+
+epoch [4 3] from [10 10]
+training time per iterations 5.060384[ms]
+testing
+testing done
+network success rate top1 35.028984% 29.047571% 
+network success rate top5 69.348389% 64.916054% 
+
+
+
+epoch [4 4] from [10 10]
+training time per iterations 4.952473[ms]
+testing
+testing done
+network success rate top1 35.233860% 28.527884% 
+network success rate top5 69.643211% 64.541275% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 69.643211%
+
+
+
+epoch [4 5] from [10 10]
+training time per iterations 4.947783[ms]
+testing
+testing done
+network success rate top1 34.689186% 28.757746% 
+network success rate top5 69.453331% 64.411354% 
+
+
+
+epoch [4 6] from [10 10]
+training time per iterations 4.944104[ms]
+testing
+testing done
+network success rate top1 35.373775% 29.572256% 
+network success rate top5 69.428345% 65.275833% 
+
+
+
+epoch [4 7] from [10 10]
+training time per iterations 4.949069[ms]
+testing
+testing done
+network success rate top1 35.773537% 28.482910% 
+network success rate top5 69.853088% 64.111534% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 69.853088%
+
+
+
+epoch [4 8] from [10 10]
+training time per iterations 5.056627[ms]
+testing
+testing done
+network success rate top1 35.473717% 28.872677% 
+network success rate top5 70.012993% 64.506294% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 70.012993%
+
+
+
+epoch [4 9] from [10 10]
+training time per iterations 4.945963[ms]
+testing
+testing done
+network success rate top1 35.503696% 29.092545% 
+network success rate top5 69.778130% 65.335800% 
+
+
+
+epoch [5 0] from [10 10]
+training time per iterations 4.950631[ms]
+testing
+testing done
+network success rate top1 35.818508% 29.117529% 
+network success rate top5 70.052971% 64.911057% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 70.052971%
+
+
+
+epoch [5 1] from [10 10]
+training time per iterations 4.949977[ms]
+testing
+testing done
+network success rate top1 35.888466% 29.677195% 
+network success rate top5 69.688187% 64.696182% 
+
+
+
+epoch [5 2] from [10 10]
+training time per iterations 4.943484[ms]
+testing
+testing done
+network success rate top1 35.888466% 29.077553% 
+network success rate top5 70.362785% 65.295822% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 70.362785%
+
+
+
+epoch [5 3] from [10 10]
+training time per iterations 5.062255[ms]
+testing
+testing done
+network success rate top1 35.723564% 29.512293% 
+network success rate top5 69.003601% 65.025986% 
+
+
+
+epoch [5 4] from [10 10]
+training time per iterations 4.955041[ms]
+testing
+testing done
+network success rate top1 35.778534% 29.047571% 
+network success rate top5 70.292824% 64.996002% 
+
+
+
+epoch [5 5] from [10 10]
+training time per iterations 4.952955[ms]
+testing
+testing done
+network success rate top1 35.858486% 29.817110% 
+network success rate top5 69.738159% 66.375175% 
+
+
+
+epoch [5 6] from [10 10]
+training time per iterations 4.952632[ms]
+testing
+testing done
+network success rate top1 36.143314% 29.727163% 
+network success rate top5 69.783127% 65.615631% 
+
+
+
+epoch [5 7] from [10 10]
+training time per iterations 4.951660[ms]
+testing
+testing done
+network success rate top1 35.993404% 30.056965% 
+network success rate top5 71.132324% 66.500099% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.132324%
+
+
+
+epoch [5 8] from [10 10]
+training time per iterations 5.060693[ms]
+testing
+testing done
+network success rate top1 35.883469% 29.662203% 
+network success rate top5 68.993607% 65.225868% 
+
+
+
+epoch [5 9] from [10 10]
+training time per iterations 4.952073[ms]
+testing
+testing done
+network success rate top1 36.358185% 29.837097% 
+network success rate top5 69.388367% 65.690582% 
+
+
+
+epoch [6 0] from [10 10]
+training time per iterations 4.955317[ms]
+testing
+testing done
+network success rate top1 36.672997% 30.161903% 
+network success rate top5 71.157303% 66.320206% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.157303%
+
+
+
+epoch [6 1] from [10 10]
+training time per iterations 4.949284[ms]
+testing
+testing done
+network success rate top1 36.648010% 29.922047% 
+network success rate top5 70.792526% 66.365181% 
+
+
+
+epoch [6 2] from [10 10]
+training time per iterations 4.954568[ms]
+testing
+testing done
+network success rate top1 36.493103% 30.431742% 
+network success rate top5 70.787529% 66.280235% 
+
+
+
+epoch [6 3] from [10 10]
+training time per iterations 5.068473[ms]
+testing
+testing done
+network success rate top1 36.692986% 30.501699% 
+network success rate top5 71.172295% 66.405159% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.172295%
+
+
+
+epoch [6 4] from [10 10]
+training time per iterations 4.954048[ms]
+testing
+testing done
+network success rate top1 37.007793% 30.146912% 
+network success rate top5 70.642616% 66.110336% 
+
+
+
+epoch [6 5] from [10 10]
+training time per iterations 4.955084[ms]
+testing
+testing done
+network success rate top1 36.957825% 30.736559% 
+network success rate top5 70.032982% 66.570061% 
+
+
+
+epoch [6 6] from [10 10]
+training time per iterations 4.955171[ms]
+testing
+testing done
+network success rate top1 36.797920% 30.301819% 
+network success rate top5 70.542671% 67.099739% 
+
+
+
+epoch [6 7] from [10 10]
+training time per iterations 4.954908[ms]
+testing
+testing done
+network success rate top1 36.777935% 31.036379% 
+network success rate top5 70.577652% 66.600037% 
+
+
+
+epoch [6 8] from [10 10]
+training time per iterations 5.061881[ms]
+testing
+testing done
+network success rate top1 36.982811% 30.766541% 
+network success rate top5 69.838097% 66.984810% 
+
+
+
+epoch [6 9] from [10 10]
+training time per iterations 4.949895[ms]
+testing
+testing done
+network success rate top1 37.462521% 31.016390% 
+network success rate top5 70.557663% 66.540077% 
+
+
+
+epoch [7 0] from [10 10]
+training time per iterations 4.949022[ms]
+testing
+testing done
+network success rate top1 36.742954% 30.726564% 
+network success rate top5 71.232262% 67.079750% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.232262%
+
+
+
+epoch [7 1] from [10 10]
+training time per iterations 4.949414[ms]
+testing
+testing done
+network success rate top1 37.077755% 30.761543% 
+network success rate top5 70.567657% 67.174698% 
+
+
+
+epoch [7 2] from [10 10]
+training time per iterations 4.950670[ms]
+testing
+testing done
+network success rate top1 37.472515% 31.006395% 
+network success rate top5 70.632622% 66.979813% 
+
+
+
+epoch [7 3] from [10 10]
+training time per iterations 5.060775[ms]
+testing
+testing done
+network success rate top1 37.777332% 30.466721% 
+network success rate top5 70.747551% 66.530083% 
+
+
+
+epoch [7 4] from [10 10]
+training time per iterations 4.953531[ms]
+testing
+testing done
+network success rate top1 37.502499% 30.126925% 
+network success rate top5 71.227264% 66.660004% 
+
+
+
+epoch [7 5] from [10 10]
+training time per iterations 4.955282[ms]
+testing
+testing done
+network success rate top1 38.042175% 31.011393% 
+network success rate top5 71.417152% 66.430145% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.417152%
+
+
+
+epoch [7 6] from [10 10]
+training time per iterations 4.949267[ms]
+testing
+testing done
+network success rate top1 37.282631% 31.036379% 
+network success rate top5 71.412155% 66.739960% 
+
+
+
+epoch [7 7] from [10 10]
+training time per iterations 4.953587[ms]
+testing
+testing done
+network success rate top1 37.712372% 31.046371% 
+network success rate top5 71.117332% 67.339600% 
+
+
+
+epoch [7 8] from [10 10]
+training time per iterations 5.064811[ms]
+testing
+testing done
+network success rate top1 37.197681% 30.856485% 
+network success rate top5 70.647614% 66.540077% 
+
+
+
+epoch [7 9] from [10 10]
+training time per iterations 4.947933[ms]
+testing
+testing done
+network success rate top1 37.627422% 31.521088% 
+network success rate top5 71.776932% 67.194687% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.776932%
+setting learning rate to 0.000050
+
+
+
+epoch [8 0] from [10 10]
+training time per iterations 4.952778[ms]
+testing
+testing done
+network success rate top1 37.637417% 31.456127% 
+network success rate top5 71.627022% 67.909256% 
+
+
+
+epoch [8 1] from [10 10]
+training time per iterations 4.955558[ms]
+testing
+testing done
+network success rate top1 38.107136% 31.925844% 
+network success rate top5 71.612030% 67.679390% 
+
+
+
+epoch [8 2] from [10 10]
+training time per iterations 5.063249[ms]
+testing
+testing done
+network success rate top1 38.332001% 31.745953% 
+network success rate top5 71.422150% 68.129120% 
+
+
+
+epoch [8 3] from [10 10]
+training time per iterations 4.951393[ms]
+testing
+testing done
+network success rate top1 38.327003% 31.626024% 
+network success rate top5 71.696983% 67.794327% 
+
+
+
+epoch [8 4] from [10 10]
+training time per iterations 4.949951[ms]
+testing
+testing done
+network success rate top1 38.252048% 32.080753% 
+network success rate top5 71.477112% 68.708778% 
+
+
+
+epoch [8 5] from [10 10]
+training time per iterations 4.949401[ms]
+testing
+testing done
+network success rate top1 38.376972% 31.296223% 
+network success rate top5 71.711975% 67.979210% 
+
+
+
+epoch [8 6] from [10 10]
+training time per iterations 4.950915[ms]
+testing
+testing done
+network success rate top1 38.317009% 30.936438% 
+network success rate top5 71.921844% 66.989807% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.921844%
+
+
+
+epoch [8 7] from [10 10]
+training time per iterations 5.065564[ms]
+testing
+testing done
+network success rate top1 38.287029% 31.396162% 
+network success rate top5 71.642014% 68.024185% 
+
+
+
+epoch [8 8] from [10 10]
+training time per iterations 4.955584[ms]
+testing
+testing done
+network success rate top1 38.037178% 31.685987% 
+network success rate top5 71.726967% 68.488907% 
+
+
+
+epoch [8 9] from [10 10]
+training time per iterations 4.949620[ms]
+testing
+testing done
+network success rate top1 38.172096% 31.895863% 
+network success rate top5 71.931839% 68.403961% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 71.931839%
+
+
+
+epoch [9 0] from [10 10]
+training time per iterations 4.954594[ms]
+testing
+testing done
+network success rate top1 38.232059% 31.391165% 
+network success rate top5 71.367180% 67.799324% 
+
+
+
+epoch [9 1] from [10 10]
+training time per iterations 4.950945[ms]
+testing
+testing done
+network success rate top1 38.177094% 32.405556% 
+network success rate top5 72.091743% 67.419548% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 72.091743%
+
+
+
+epoch [9 2] from [10 10]
+training time per iterations 5.063043[ms]
+testing
+testing done
+network success rate top1 38.027184% 31.835899% 
+network success rate top5 71.756943% 68.488907% 
+
+
+
+epoch [9 3] from [10 10]
+training time per iterations 4.954413[ms]
+testing
+testing done
+network success rate top1 38.551868% 31.695982% 
+network success rate top5 71.552071% 67.909256% 
+
+
+
+epoch [9 4] from [10 10]
+training time per iterations 4.950227[ms]
+testing
+testing done
+network success rate top1 38.037178% 32.275635% 
+network success rate top5 71.881874% 68.099144% 
+
+
+
+epoch [9 5] from [10 10]
+training time per iterations 4.953613[ms]
+testing
+testing done
+network success rate top1 38.546871% 31.710974% 
+network success rate top5 71.557068% 67.949234% 
+
+
+
+epoch [9 6] from [10 10]
+training time per iterations 4.953445[ms]
+testing
+testing done
+network success rate top1 38.361984% 32.130722% 
+network success rate top5 71.671997% 67.644417% 
+
+
+
+epoch [9 7] from [10 10]
+training time per iterations 5.063451[ms]
+testing
+testing done
+network success rate top1 38.546871% 31.556067% 
+network success rate top5 72.066757% 67.599442% 
+
+
+
+epoch [9 8] from [10 10]
+training time per iterations 4.953596[ms]
+testing
+testing done
+network success rate top1 38.192085% 31.441135% 
+network success rate top5 71.801918% 67.794327% 
+
+
+
+epoch [9 9] from [10 10]
+training time per iterations 4.954525[ms]
+testing
+testing done
+network success rate top1 38.317009% 32.040775% 
+network success rate top5 72.256645% 68.119125% 
+saving best net in top 5
+best net saved to networks/9_9_go/net_1/trained/, with success rate 72.256645%
+training done

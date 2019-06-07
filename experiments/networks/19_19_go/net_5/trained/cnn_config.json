@@ -1,0 +1,1351 @@
+{
+	"hyperparameters" : 
+	{
+		"dropout" : 0.40000000596046448,
+		"init_weight_range" : 0,
+		"lambda1" : 1.0000000116860974e-07,
+		"lambda2" : 1.0000000116860974e-07,
+		"learning_rate" : 0.00019999999494757503,
+		"minibatch_size" : 128
+	},
+	"input_geometry" : 
+	[
+		19,
+		19,
+		4
+	],
+	"layers" : 
+	[
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				4
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				20
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_0"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				20
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				20
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_1"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				20
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				36
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_2"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				36
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				36
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_3"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				36
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				52
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_4"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				52
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				52
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_5"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				52
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				68
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_6"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				68
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				68
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_7"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				68
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				84
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_8"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				84
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				84
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_9"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				84
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				100
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_10"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				100
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				100
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_11"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				100
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				116
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_12"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				116
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				116
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_13"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				116
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				132
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_14"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				132
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				132
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_15"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				132
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				148
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_16"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				148
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				148
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_17"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				148
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				164
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_18"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				164
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				164
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_19"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				164
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				180
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_20"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				180
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				180
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_21"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				180
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				196
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_22"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				196
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				196
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_23"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				196
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				212
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_24"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				212
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				212
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_25"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				212
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				228
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_26"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				228
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				228
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_27"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				228
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				244
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_28"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				244
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				244
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_29"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				244
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				260
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_30"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				260
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				260
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_31"
+		},
+		{
+			"geometry" : 
+			[
+				1,
+				1,
+				64
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				260
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				64
+			],
+			"type" : "convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_32"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				64
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				64
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_33"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				64
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				80
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_34"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				80
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				80
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_35"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				80
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				96
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_36"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				96
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				96
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_37"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				96
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				112
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_38"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				112
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				112
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_39"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				112
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_40"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_41"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				144
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_42"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				144
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				144
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_43"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				144
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				160
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_44"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				160
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				160
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_45"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				160
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				176
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_46"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				176
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				176
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_47"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				176
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				192
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_48"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				192
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				192
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_49"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				192
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				208
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_50"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				208
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				208
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_51"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				208
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				224
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_52"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				224
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				224
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_53"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				224
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				240
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_54"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				240
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				240
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_55"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				240
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				256
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_56"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				256
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				256
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_57"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				256
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				272
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_58"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				272
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				272
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_59"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				272
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				288
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_60"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				288
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				288
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_61"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				288
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				304
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_62"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				304
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				304
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_63"
+		},
+		{
+			"geometry" : 
+			[
+				3,
+				3,
+				16
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				304
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				320
+			],
+			"type" : "dense convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_64"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				320
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				320
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_65"
+		},
+		{
+			"geometry" : 
+			[
+				1,
+				1,
+				128
+			],
+			"input_geometry" : 
+			[
+				19,
+				19,
+				320
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"type" : "convolution",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_66"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"type" : "relu",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_67"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"output_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"type" : "dropout",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_68"
+		},
+		{
+			"input_geometry" : 
+			[
+				19,
+				19,
+				128
+			],
+			"output_geometry" : 
+			[
+				1,
+				1,
+				362
+			],
+			"type" : "output",
+			"weights_file_name" : "networks/19_19_go/net_5/trained/layer_69"
+		}
+	],
+	"network_log_file_name" : "networks/19_19_go/net_5/network.log",
+	"output_geometry" : 
+	[
+		1,
+		1,
+		362
+	]
+}

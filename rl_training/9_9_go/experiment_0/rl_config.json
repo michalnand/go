@@ -1,0 +1,12 @@
+{
+  "verbose"           : false,
+  "visualisation"     : false,
+
+  "trials_count"      : 10,
+  "games_count"       : 100,
+  "board_size"        : 9,
+
+  "komi"              : 6.5,
+
+  "result_dir"        : "9_9_go/experiment_0/result/",
+}

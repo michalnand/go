@@ -1,0 +1,66 @@
+{
+  "board_size"                : 19,
+  "padding"                   : 0,
+
+  "noise_level" : 0.05,
+
+  "training_positions_count"  : 10000000,
+  "testing_positions_count"   : 100000,
+
+  "training_sgf" :
+  [
+    "/home/michal/dataset/gogod/2000",
+    "/home/michal/dataset/gogod/2001",
+    "/home/michal/dataset/gogod/2002",
+    "/home/michal/dataset/gogod/2003",
+    "/home/michal/dataset/gogod/2004",
+    "/home/michal/dataset/gogod/2005",
+    "/home/michal/dataset/gogod/2007",
+    "/home/michal/dataset/gogod/2008",
+    "/home/michal/dataset/gogod/2009",
+    "/home/michal/dataset/gogod/2010",
+    "/home/michal/dataset/gogod/2011",
+    "/home/michal/dataset/gogod/2012",
+    "/home/michal/dataset/gogod/2013",
+    "/home/michal/dataset/gogod/2014",
+    "/home/michal/dataset/gogod/2015",
+
+    "/home/michal/dataset/gogod/1900-09",
+    "/home/michal/dataset/gogod/1910-19",
+    "/home/michal/dataset/gogod/1920-29",
+    "/home/michal/dataset/gogod/1930-39",
+    "/home/michal/dataset/gogod/1940-49",
+    "/home/michal/dataset/gogod/1950-59",
+    "/home/michal/dataset/gogod/1960-69",
+    "/home/michal/dataset/gogod/1970-75",
+    "/home/michal/dataset/gogod/1976-79",
+    "/home/michal/dataset/gogod/1980",
+    "/home/michal/dataset/gogod/1981",
+    "/home/michal/dataset/gogod/1982",
+    "/home/michal/dataset/gogod/1983",
+    "/home/michal/dataset/gogod/1984",
+    "/home/michal/dataset/gogod/1985",
+    "/home/michal/dataset/gogod/1986",
+    "/home/michal/dataset/gogod/1987",
+    "/home/michal/dataset/gogod/1988",
+    "/home/michal/dataset/gogod/1989",
+    "/home/michal/dataset/gogod/1990",
+    "/home/michal/dataset/gogod/1991",
+    "/home/michal/dataset/gogod/1992",
+    "/home/michal/dataset/gogod/1993",
+    "/home/michal/dataset/gogod/1994",
+    "/home/michal/dataset/gogod/1995",
+    "/home/michal/dataset/gogod/1996",
+    "/home/michal/dataset/gogod/1997",
+    "/home/michal/dataset/gogod/1998",
+    "/home/michal/dataset/gogod/1999"
+  ],
+
+  "testing_sgf" :
+  [
+    "/home/michal/dataset/gogod/2016",
+    "/home/michal/dataset/gogod/2017",
+    "/home/michal/dataset/gogod/2018"
+  ]
+
+}

@@ -1,0 +1,9 @@
+cd result
+rm *.log -f
+cd dqn
+rm *.log -f
+rm *.json -f
+rm *.png -f
+
+cd ..
+cd ..

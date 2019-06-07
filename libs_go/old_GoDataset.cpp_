@@ -1,0 +1,235 @@
+#include "GoDataset.h"
+
+#include "GoSgfPlayer.h"
+
+#include <stdio.h>
+#include <experimental/filesystem>
+
+
+GoDataset::GoDataset(const char* json_file_name)
+          :DatasetInterface()
+{
+  std::string json_file_name_ = json_file_name;
+
+  JsonConfig json_config(json_file_name_);
+  init(json_config.result);
+}
+
+GoDataset::GoDataset(std::string json_file_name)
+          :DatasetInterface()
+{
+  JsonConfig json_config(json_file_name);
+  init(json_config.result);
+}
+
+GoDataset::GoDataset(Json::Value json_init)
+          :DatasetInterface()
+{
+  init(json_init);
+}
+
+int GoDataset::init(Json::Value json_init)
+{
+  this->json_init = json_init;
+
+  board_size  = json_init["board_size"].asInt();
+  padding     = json_init["padding"].asInt();
+
+
+  width       = board_size + 2*padding;
+  height      = board_size + 2*padding;
+  channels    = 2;
+
+  dataset_item.input.resize(width*height*channels);
+  dataset_item.output.resize(board_size*board_size + 1);
+
+  return 0;
+}
+
+
+void GoDataset::create()
+{
+  for (unsigned int i = 0; i < json_init["testing_sgf"].size(); i++)
+  {
+    unsigned int max_count = json_init["testing_positions_count"].asInt();
+    play_path(json_init["testing_sgf"][i].asString(), max_count, true);
+    if (testing.size() > max_count)
+      break;
+  }
+
+
+  for (unsigned int i = 0; i < json_init["training_sgf"].size(); i++)
+  {
+    unsigned int max_count = json_init["training_positions_count"].asInt();
+    play_path(json_init["training_sgf"][i].asString(), max_count, false);
+    if (training.size() > max_count)
+      break;
+  }
+
+  for (unsigned int i = 0; i < 10; i++)
+    print_testing_item(rand()%testing.size());
+
+  print();
+}
+
+void GoDataset::play_path(std::string path, unsigned int max_count, bool testing)
+{
+  for (auto & p : std::experimental::filesystem::directory_iterator(path))
+  {
+    std::string game_record_file_name;
+    game_record_file_name = p.path();
+
+    if (std::experimental::filesystem::path(game_record_file_name).extension() == ".sgf")
+    {
+      int result = play_game(game_record_file_name, testing);
+      printf("game %s >> %i\n", game_record_file_name.c_str(), result);
+
+      if (testing)
+      {
+        if (get_testing_size() > max_count)
+          return;
+      }
+      else
+      {
+        if (get_training_size() > max_count)
+          return;
+      }
+
+    }
+  }
+}
+
+int GoDataset::play_game(std::string sgf_file_name, bool testing)
+{
+  Goban goban(board_size, false);
+  GoSgfPlayer player(sgf_file_name);
+
+  int res;
+  do
+  {
+    res = goban.play(player, player);
+  }
+  while (res == GOBAN_GAME_PLAYING);
+
+  if (res == GOBAN_GAME_END)
+  {
+    for (unsigned int i = 0; i < (goban.moves.size()-1); i++)
+    for (unsigned int rotation = 0; rotation < 8; rotation++)
+    {
+      board_to_input(dataset_item.input, goban.positions[i], goban.moves[i], rotation);
+      moves_to_output(dataset_item.output, goban.moves[i + 1], rotation);
+
+      if (testing)
+        add_testing(dataset_item);
+      else
+        add_training(dataset_item);
+    }
+  }
+
+  return res;
+}
+
+
+
+void GoDataset::board_to_input(std::vector<float> &input, GoBoard &board, GoMove &move, unsigned int rotation)
+{
+  for (unsigned int i = 0; i < input.size(); i++)
+    input[i] = 0.0;
+
+  for (unsigned int y = 0; y < board_size; y++)
+  for (unsigned int x = 0; x < board_size; x++)
+  {
+    sGoPoint rotated = augmentation(x, y, rotation);
+    int in = board[rotated.y][rotated.x];
+
+    if (in != GO_PLAYER_EMPTY)
+    {
+      unsigned int ch = 0;
+
+      if (in == move.player())
+        ch = 0;
+      else
+        ch = 1;
+
+      unsigned int result_idx = (ch*height + y + padding)*width + x + padding;
+      input[result_idx] = 1.0;
+    }
+  }
+}
+
+void GoDataset::moves_to_output(std::vector<float> &output, GoMove &move, unsigned int rotation)
+{
+  for (unsigned int i = 0; i < output.size(); i++)
+    output[i] = 0.0;
+
+  if (move.pass())
+  {
+    unsigned int idx = board_size*board_size;
+    output[idx] = 1.0;
+  }
+  else
+  {
+    sGoPoint rotated = augmentation(move.x(), move.y(), rotation);
+    unsigned int idx = rotated.y*board_size + rotated.x;
+
+    if (idx < board_size*board_size)
+      output[idx] = 1.0;
+    else
+      printf("\nWRONG MOVE [%u %u]\n", rotated.y, rotated.x);
+  }
+
+}
+
+
+sGoPoint GoDataset::augmentation(int x, int y, unsigned int rotation)
+{
+  sGoPoint result;
+
+  result.x = x;
+  result.y = y;
+
+  switch (rotation)
+  {
+    case 0:
+            result.x = x;
+            result.y = y;
+            break;
+
+    case 1:
+            result.x = y;
+            result.y = x;
+            break;
+
+    case 2:
+            result.x = (board_size - 1) - x;
+            result.y = y;
+            break;
+
+    case 3:
+            result.x = x;
+            result.y = (board_size - 1) - y;
+            break;
+
+    case 4:
+            result.x = (board_size - 1) - x;
+            result.y = (board_size - 1) - y;
+            break;
+
+    case 5:
+            result.x = y;
+            result.y = (board_size - 1) - x;
+            break;
+
+    case 6:
+            result.x = (board_size - 1) - y;
+            result.y = x;
+            break;
+
+    case 7:
+            result.x = (board_size - 1) - y;
+            result.y = (board_size - 1) - x;
+            break;
+  }
+
+  return result;
+}

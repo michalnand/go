@@ -1,0 +1,7 @@
+{
+  "padding"           : 0,
+  "top_moves_count"   : 4,
+  "moves_decay"       : 2,
+
+  "network_config_file_name"  : "networks/19_19_go/net_5/trained/cnn_config.json"
+}

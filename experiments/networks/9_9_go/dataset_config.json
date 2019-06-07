@@ -1,0 +1,20 @@
+{
+  "board_size" : 9,
+  "padding"    : 0,
+
+  "noise_level" : 0.05,
+
+  "training_positions_count"  : 5000000,
+  "testing_positions_count"   : 20000,
+
+  "training_sgf"  :
+  [
+    "/home/michal/dataset/go_9_9/training_sgf"
+  ],
+
+  "testing_sgf"  :
+  [
+    "/home/michal/dataset/go_9_9/testing_sgf"
+  ]
+
+}

@@ -1,0 +1,162 @@
+#include "GobanVisual.h"
+#include <stdio.h>
+#include <timer.h>
+
+
+GobanVisual::GobanVisual(unsigned int size, bool draw_enabled, float komi)
+						:Goban(size, draw_enabled, komi)
+{
+	visualisation = nullptr;
+	if (this->draw_enabled)
+	{
+		 visualisation = new Visualisation(900, 900);
+	}
+}
+
+GobanVisual::~GobanVisual()
+{
+	if (visualisation != nullptr)
+		delete visualisation;
+}
+
+
+void GobanVisual::draw()
+{
+		if (visualisation == nullptr)
+			return;
+
+		float scale = 1.0;
+		unsigned int size = board.size();
+ 		visualisation->start();
+
+ 		visualisation->translate(0, -0.3, -4.0);
+
+		visualisation->push();
+		visualisation->translate(0, 0, -0.002);
+		visualisation->set_color(0.5, 0.4, 0.0);
+		visualisation->paint_square(2*size*0.12*scale);
+		visualisation->pop();
+
+		std::string str_score;
+
+		float score = compute_score();
+
+		if (score > 0.0)
+			str_score = "score : BLACK +" + std::to_string(score);
+		else
+			str_score = "score : WHITE +" + std::to_string(-score);
+
+		visualisation->set_color(1.0, 1.0, 1.0);
+	  visualisation->print(-0.4, +1.3, 0, str_score);
+
+	 //Style A1 (or Korschelt)
+	 char letter = 'A';
+	 for (unsigned int x = 0; x < size; x++)
+	 {
+		 std::string text;
+		 text = letter;
+		 float x_ = (-0.012 + x*1.0/size - 0.5)*2.0*scale;
+		 float y_ = (size*1.0/size - 0.5)*2.0*scale;
+
+		 visualisation->set_color(1.0, 1.0, 1.0);
+		 visualisation->print(x_, y_, 0, text);
+
+		 letter++;
+		 if (letter == 'I')
+			 letter++;
+	 }
+
+
+	 for (unsigned int y = 0; y < size; y++)
+	 {
+		 std::string text;
+		 text = std::to_string(size - y);
+		 float x_ = (-0.012 + -1*1.0/size - 0.5)*2.0*scale;
+		 float y_ = (-0.012 + y*1.0/size - 0.5)*2.0*scale;
+
+		 visualisation->set_color(1.0, 1.0, 1.0);
+		 visualisation->print(x_, y_, 0, text);
+	 }
+
+	 for (unsigned int x = 0; x < size; x++)
+	 {
+		 float x_start = (x*1.0/size - 0.5)*2.0*scale;
+		 float y_start = ((size-1)*1.0/size - 0.5)*2.0*scale;
+		 float x_end = x_start;
+		 float y_end = ((0)*1.0/size - 0.5)*2.0*scale;
+
+
+		 visualisation->push();
+
+			 visualisation->set_color(0.0, 0.0, 0.0);
+			 visualisation->paint_line(x_start, y_start, 0, x_end, y_end, 0.0);
+
+		 visualisation->pop();
+	 }
+
+	 for (unsigned int y = 0; y < size; y++)
+	 {
+		 float x_start = ((size-1)*1.0/size - 0.5)*2.0*scale;
+		 float y_start = (y*1.0/size - 0.5)*2.0*scale;
+		 float x_end = ((0)*1.0/size - 0.5)*2.0*scale;
+		 float y_end = y_start;
+
+		 visualisation->push();
+
+			 visualisation->set_color(0.0, 0.0, 0.0);
+			 visualisation->paint_line(x_start, y_start, 0, x_end, y_end, 0.0);
+
+		 visualisation->pop();
+	 }
+
+
+
+	 for (unsigned int y = 0; y < size; y++)
+	 for (unsigned int x = 0; x < size; x++)
+	 if (territory[y][x] != 0)
+	 {
+		 visualisation->push();
+
+		 float x_ = (x*1.0/size - 0.5)*2.0*scale;
+		 float y_ = ((size-y-1)*1.0/size - 0.5)*2.0*scale;
+		 float radius = scale*0.5*1.0/size;
+
+		 visualisation->translate(x_, y_, 0);
+
+		 if (territory[y][x] > 0)
+			 visualisation->set_color(0.2, 0.2, 0.2);
+
+		 if (territory[y][x] < 0)
+			 visualisation->set_color(0.8, 0.8, 0.8);
+
+
+		 visualisation->paint_square(radius);
+
+		 visualisation->pop();
+	 }
+
+	 for (unsigned int y = 0; y < size; y++)
+	 for (unsigned int x = 0; x < size; x++)
+	 if (board[y][x] != GO_PLAYER_EMPTY)
+	 {
+		 visualisation->push();
+		 float x_ = (x*1.0/size - 0.5)*2.0*scale;
+		 float y_ = ((size-y-1)*1.0/size - 0.5)*2.0*scale;
+		 float radius = scale*0.9*1.0/size;
+
+		 visualisation->translate(x_, y_, 0);
+		 if (board[y][x] == GO_PLAYER_BLACK)
+			 visualisation->set_color(0.1, 0.1, 0.1);
+		 if (board[y][x] == GO_PLAYER_WHITE)
+			 visualisation->set_color(0.9, 0.9, 0.9);
+
+
+		 visualisation->paint_circle(radius);
+
+		 visualisation->pop();
+	 }
+
+ 	visualisation->finish();
+
+	timer.sleep_ms(200);
+}

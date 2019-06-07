@@ -1,0 +1,18 @@
+{
+  "textures"   : [
+    {
+      "id"            : 0,
+      "file_name"  : "gui/empty.png"
+    },
+
+    {
+      "id"            : 1,
+      "file_name"  : "gui/back.png"
+    },
+
+    {
+      "id"            : 2,
+      "file_name"  : "gui/wood.png"
+    }
+  ]
+}
