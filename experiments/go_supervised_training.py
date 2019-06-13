@@ -6,7 +6,7 @@ import threading
 
 dataset_file_name = "networks/19_19_go/dataset_config.json"
 
-experiment_config_dir = "networks/19_19_go/net_5/"
+experiment_config_dir = "networks/19_19_go/net_2/"
 
 
 dataset = pygo.GoDatasetRuntime(dataset_file_name)
