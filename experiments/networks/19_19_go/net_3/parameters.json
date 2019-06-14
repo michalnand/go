@@ -8,7 +8,7 @@
 
     "network_architecture" :
     {
-        "network_log_file_name" : "networks/19_19_go/net_2/network.log",
+        "network_log_file_name" : "networks/19_19_go/net_3/network.log",
 
         "input_geometry"     : [19, 19, 4],
         "output_geometry"    : [1, 1, 362],
@@ -16,7 +16,7 @@
         "hyperparameters" :
         {
           "init_weight_range" : 0.0,
-          "learning_rate"     : 0.00005,
+          "learning_rate"     : 0.0002,
           "lambda1"           : 0.0000001,
           "lambda2"           : 0.0000001,
           "dropout"           : 0.4,
@@ -28,261 +28,248 @@
         [
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "convolution",
-            "geometry"  : [1, 1, 96]
+            "geometry"  : [1, 1, 64]
           },
           {
             "type"      : "elu"
           },
 
 
+
+
+
+
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
             "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
           {
-            "type"      : "convolution",
-            "geometry"  : [1, 1, 96]
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
+          },
+          {
+            "type"      : "elu"
+          },
+          {
+            "type"      : "dense convolution",
+            "geometry"  : [3, 3, 16]
           },
           {
             "type"      : "elu"
           },
 
-
           {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
+              "type"      : "convolution",
+              "geometry"  : [1, 1, 96]
           },
           {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "convolution",
-            "geometry"  : [1, 1, 96]
-          },
-          {
-            "type"      : "elu"
-          },
-
-
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "dense convolution",
-            "geometry"  : [3, 3, 32]
-          },
-          {
-            "type"      : "elu"
-          },
-          {
-            "type"      : "convolution",
-            "geometry"  : [1, 1, 96]
-          },
-          {
-            "type"      : "elu"
+              "type"      : "elu"
           },
 
           {
