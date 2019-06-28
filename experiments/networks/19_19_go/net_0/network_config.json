@@ -1,0 +1,115 @@
+{
+    "hyperparameters" :
+    {
+        "dropout"           : 0.5,
+        "lambda1"           : 0.00000001,
+        "lambda2"           : 0.00000001,
+        "learning_rate"     : 0.0002,
+        "minibatch_size"    : 128
+    },
+
+    "layers" :
+    [
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+
+
+
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+
+
+
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 128]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 128]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+
+
+
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 256]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [3, 3, 256]
+        },
+        {
+            "type" : "crop"
+        },
+        {
+            "type" : "elu"
+        },
+
+
+
+
+
+
+        {
+            "type" : "dropout"
+        },
+        {
+            "type" : "output"
+        }
+    ]
+}
