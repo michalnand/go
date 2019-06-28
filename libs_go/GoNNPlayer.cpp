@@ -12,30 +12,19 @@ GoNNPlayer::GoNNPlayer(std::string config_file_name, unsigned int board_size)
 	config.load(config_file_name);
 
 	this->board_size 	= board_size;
-	padding 					= config.result["padding"].asInt();
+	padding 			= config.result["padding"].asInt();
 	top_moves_count 	= config.result["top_moves_count"].asInt();
-	moves_decay				=	config.result["moves_decay"].asInt();
+	moves_decay			= config.result["moves_decay"].asInt();
 
 	width 	= board_size + 2*padding;
 	height 	= board_size + 2*padding;
-	channels = 4;
+	depth = 4;
 
-	sGeometry input_geometry;
+	Shape input_shape(width, height, depth);
+	Shape output_shape(1, 1, board_size*board_size + 1);
 
-	input_geometry.w = width;
-	input_geometry.h = height;
-	input_geometry.d = channels;
-
-	sGeometry output_geometry;
-
-	output_geometry.w = 1;
-	output_geometry.h = 1;
-	output_geometry.d = board_size*board_size + 1;
-
-
-	nn = new CNN(config.result["network_config_file_name"].asString(), input_geometry, output_geometry);
-
-	nn_output.resize(output_geometry.d);
+	nn = new CNN(config.result["network_config_file_name"].asString(), input_shape, output_shape);
+	nn_output.resize(output_shape.size());
 }
 
 GoNNPlayer::~GoNNPlayer()
@@ -87,7 +76,7 @@ GoMove GoNNPlayer::choose_move()
 
 std::vector<float> GoNNPlayer::create_nn_input()
 {
-	std::vector<float> result(channels*height*width);
+	std::vector<float> result(depth*height*width);
 
 
 	for (unsigned int i = 0; i < result.size(); i++)

@@ -1,21 +1,17 @@
 
 INC+= -I.
 INC+= -I../libs_go
-INC+= -I$(LIBS_DQN_PATH)/libs_dqn
 INC+= -I$(LIBS_RYSY_PATH)/libs_common
 INC+= -I$(LIBS_RYSY_PATH)/libs_dataset
 INC+= -I$(LIBS_RYSY_PATH)/libs_nn
 INC+= -I$(LIBS_RYSY_PATH)/libs_experiment
-INC+= -I$(LIBS_RYSY_PATH)/libs_preprocessing
 
 LIBS+= ../libs_go/libs_go.a
-LIBS+= $(LIBS_DQN_PATH)/libs_dqn/libs_dqn.a
 LIBS+= $(LIBS_RYSY_PATH)/libs_experiment/libs_experiment.a
 LIBS+= $(LIBS_RYSY_PATH)/libs_dataset/libs_dataset.a
 LIBS+= $(LIBS_RYSY_PATH)/libs_nn/libs_nn.a
 LIBS+= $(LIBS_RYSY_PATH)/libs_common/libs_common.a
-LIBS+= $(LIBS_RYSY_PATH)/libs_preprocessing/libs_preprocessing.a
-
+ 
 CC = g++
 LD = g++
 

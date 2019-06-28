@@ -30,7 +30,7 @@ class GoNNPlayer: public GoPlayer
         JsonConfig config;
 
         unsigned int board_size, padding;
-        unsigned int width, height, channels;
+        unsigned int width, height, depth;
 
         unsigned int top_moves_count;
         unsigned int moves_decay;

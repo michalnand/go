@@ -3,8 +3,8 @@
 #include <iomanip> // setprecision
 #include <sstream> // stringstream
 
-GoSupervised::GoSupervised(DatasetInterface &dataset, std::string config_dir)
-             :ClassificationExperiment(dataset, config_dir)
+GoSupervised::GoSupervised(DatasetInterface &dataset, std::string experiment_dir, std::string network_config_file)
+             :ClassificationExperiment(dataset, experiment_dir, network_config_file)
 {
 
 }
@@ -21,25 +21,25 @@ void GoSupervised::process_best()
     {
         sGoSupervisedResult result = compute_matrix(compare_testing);
 
-        save_svg_success(config_dir + "moves_success_rate_testing_top1.svg", result);
-        save_svg_count(config_dir   + "moves_frequency_testing.svg", result);
+        save_svg_success(experiment_dir + "moves_success_rate_testing_top1.svg", result);
+        save_svg_count(experiment_dir   + "moves_frequency_testing.svg", result);
     }
 
     {
         sGoSupervisedResult result = compute_matrix(compare_testing_top5);
-        save_svg_success(config_dir + "moves_success_rate_testing_top5.svg", result);
+        save_svg_success(experiment_dir + "moves_success_rate_testing_top5.svg", result);
     }
 
     {
         sGoSupervisedResult result = compute_matrix(compare_training);
 
-        save_svg_success(config_dir + "moves_success_rate_training_top1.svg", result);
-        save_svg_count(config_dir   + "moves_frequency_training.svg", result);
+        save_svg_success(experiment_dir + "moves_success_rate_training_top1.svg", result);
+        save_svg_count(experiment_dir   + "moves_frequency_training.svg", result);
     }
 
     {
         sGoSupervisedResult result = compute_matrix(compare_training_top5);
-        save_svg_success(config_dir + "moves_success_rate_training_top5.svg", result);
+        save_svg_success(experiment_dir + "moves_success_rate_training_top5.svg", result);
     }
 }
 
@@ -150,7 +150,9 @@ sGoSupervisedResult GoSupervised::compute_matrix(ClassificationCompare &compare)
 {
     unsigned int board_size;
 
-    switch (compare.get_classes_count())
+    unsigned int classes_count = dataset->get_classes_count();
+
+    switch (classes_count)
     {
         case 5*5+1  : board_size = 5;   break;
         case 9*9+1  : board_size = 9;   break;

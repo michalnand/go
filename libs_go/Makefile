@@ -5,8 +5,8 @@ INC+= -I$(LIBS_DQN_PATH)/libs_dqn
 INC+= -I$(LIBS_RYSY_PATH)/libs_common
 INC+= -I$(LIBS_RYSY_PATH)/libs_dataset
 INC+= -I$(LIBS_RYSY_PATH)/libs_nn
+INC+= -I$(LIBS_RYSY_PATH)/libs_dqn
 INC+= -I$(LIBS_RYSY_PATH)/libs_experiment
-INC+= -I$(LIBS_RYSY_PATH)/libs_preprocessing
 
 
 

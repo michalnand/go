@@ -39,4 +39,10 @@ enum GoDatasetMode
     GoDatasetMode_WinnerPrediction
 };
 
+struct sGoDatasetItem
+{
+    std::vector<float> input;
+    std::vector<float> output;
+};
+
 #endif

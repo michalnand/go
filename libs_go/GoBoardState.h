@@ -1,8 +1,8 @@
 #ifndef _GO_BOARD_STATE_H_
 #define _GO_BOARD_STATE_H_
 
-#include "go_defs.h"
-#include "GoMove.h"
+#include <go_defs.h>
+#include <GoMove.h>
 #include <dataset_interface.h>
 
 class GoBoardState
@@ -18,8 +18,8 @@ class GoBoardState
         void set(const GoBoard &board, const GoMove &move_now, const GoMove &move_next, int winner = GO_PLAYER_EMPTY);
         void set(const GoBoardState &board_state);
 
-        sDatasetItem get(unsigned int padding, unsigned int rotation, float noise_level = 0.0);
-        sDatasetItem get_winner_value(unsigned int padding, unsigned int rotation, float noise_level = 0.0);
+        sGoDatasetItem get(unsigned int padding, unsigned int rotation, float noise_level = 0.0);
+        sGoDatasetItem get_winner_value(unsigned int padding, unsigned int rotation, float noise_level = 0.0);
 
         unsigned int get_rotations_count()
         {

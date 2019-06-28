@@ -2,6 +2,7 @@
 #define _GO_SUPERVISED_H_
 
 #include <classification_experiment.h>
+#include <classification_compare.h>
 #include <svg.h>
 
 
@@ -22,7 +23,7 @@ struct sGoSupervisedResult
 class GoSupervised: public ClassificationExperiment
 {
     public:
-        GoSupervised(DatasetInterface &dataset, std::string config_dir);
+        GoSupervised(DatasetInterface &dataset, std::string experiment_dir, std::string network_config_file);
         virtual ~GoSupervised();
 
     protected:

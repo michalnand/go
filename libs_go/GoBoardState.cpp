@@ -82,9 +82,9 @@ void GoBoardState::set(const GoBoardState &board_state)
     channels = 4;
 }
 
-sDatasetItem GoBoardState::get(unsigned int padding, unsigned int rotation, float noise_level)
+sGoDatasetItem GoBoardState::get(unsigned int padding, unsigned int rotation, float noise_level)
 {
-    sDatasetItem result;
+    sGoDatasetItem result;
 
     width    = m_board_size + 2*padding;
     height   = m_board_size + 2*padding;
@@ -100,9 +100,9 @@ sDatasetItem GoBoardState::get(unsigned int padding, unsigned int rotation, floa
 }
 
 
-sDatasetItem GoBoardState::get_winner_value(unsigned int padding, unsigned int rotation, float noise_level)
+sGoDatasetItem GoBoardState::get_winner_value(unsigned int padding, unsigned int rotation, float noise_level)
 {
-    sDatasetItem result;
+    sGoDatasetItem result;
 
     width    = m_board_size + 2*padding;
     height   = m_board_size + 2*padding;
