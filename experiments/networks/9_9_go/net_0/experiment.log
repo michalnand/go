@@ -609,3 +609,742 @@ training accuracy TOP 5 51.279106[%]
 creating batch 15
 training epoch 1 batch id15 done = 16.521740[%]
 
+testing on testing
+testing on training
+testing accuracy 24.707705[%]
+testing accuracy TOP 5 57.664635[%]
+training accuracy   18.981712[%]
+training accuracy TOP 5 51.448986[%]
+saving new best net with result = 24.707705%
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 1 batch id16 done = 16.956522[%]
+
+testing on testing
+testing on training
+testing accuracy 24.812632[%]
+testing accuracy TOP 5 58.214249[%]
+training accuracy   18.831818[%]
+training accuracy TOP 5 50.864395[%]
+saving new best net with result = 24.812632%
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 1 batch id17 done = 17.391304[%]
+
+testing on testing
+testing on training
+testing accuracy 24.692715[%]
+testing accuracy TOP 5 58.124313[%]
+training accuracy   19.376436[%]
+training accuracy TOP 5 51.533928[%]
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 1 batch id18 done = 17.826086[%]
+
+testing on testing
+testing on training
+testing accuracy 24.827621[%]
+testing accuracy TOP 5 58.199261[%]
+training accuracy   19.386429[%]
+training accuracy TOP 5 51.289097[%]
+saving new best net with result = 24.827621%
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 1 batch id19 done = 18.260870[%]
+
+testing on testing
+testing on training
+testing accuracy 24.877586[%]
+testing accuracy TOP 5 58.933746[%]
+training accuracy   19.216549[%]
+training accuracy TOP 5 51.374039[%]
+saving new best net with result = 24.877586%
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 1 batch id20 done = 18.695652[%]
+
+testing on testing
+testing on training
+testing accuracy 24.767662[%]
+testing accuracy TOP 5 58.923752[%]
+training accuracy   18.706905[%]
+training accuracy TOP 5 50.409714[%]
+====================================================================================================
+
+
+
+
+creating batch 21
+training epoch 1 batch id21 done = 19.130434[%]
+
+testing on testing
+testing on training
+testing accuracy 24.887579[%]
+testing accuracy TOP 5 58.858799[%]
+training accuracy   18.921755[%]
+training accuracy TOP 5 51.668831[%]
+saving new best net with result = 24.887579%
+====================================================================================================
+
+
+
+
+creating batch 22
+training epoch 1 batch id22 done = 19.565218[%]
+
+testing on testing
+testing on training
+testing accuracy 25.292295[%]
+testing accuracy TOP 5 59.348457[%]
+training accuracy   19.596283[%]
+training accuracy TOP 5 52.313381[%]
+saving new best net with result = 25.292295%
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 2 batch id0 done = 20.000000[%]
+
+testing on testing
+testing on training
+testing accuracy 25.806934[%]
+testing accuracy TOP 5 59.543320[%]
+training accuracy   19.941042[%]
+training accuracy TOP 5 52.253422[%]
+saving new best net with result = 25.806934%
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 2 batch id1 done = 20.434782[%]
+
+testing on testing
+testing on training
+testing accuracy 25.781952[%]
+testing accuracy TOP 5 59.068653[%]
+training accuracy   19.426401[%]
+training accuracy TOP 5 51.858700[%]
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 2 batch id2 done = 20.869566[%]
+
+testing on testing
+testing on training
+testing accuracy 25.242331[%]
+testing accuracy TOP 5 59.168583[%]
+training accuracy   20.035975[%]
+training accuracy TOP 5 52.598183[%]
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 2 batch id3 done = 21.304348[%]
+
+testing on testing
+testing on training
+testing accuracy 25.821924[%]
+testing accuracy TOP 5 59.753174[%]
+training accuracy   19.591286[%]
+training accuracy TOP 5 52.458279[%]
+saving new best net with result = 25.821924%
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 2 batch id4 done = 21.739130[%]
+
+testing on testing
+testing on training
+testing accuracy 25.976816[%]
+testing accuracy TOP 5 59.828121[%]
+training accuracy   19.581293[%]
+training accuracy TOP 5 53.082844[%]
+saving new best net with result = 25.976816%
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 2 batch id5 done = 22.173914[%]
+
+testing on testing
+testing on training
+testing accuracy 25.991806[%]
+testing accuracy TOP 5 60.322773[%]
+training accuracy   20.405716[%]
+training accuracy TOP 5 53.397621[%]
+saving new best net with result = 25.991806%
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 2 batch id6 done = 22.608696[%]
+
+testing on testing
+testing on training
+testing accuracy 26.131708[%]
+testing accuracy TOP 5 59.758171[%]
+training accuracy   20.645548[%]
+training accuracy TOP 5 53.327671[%]
+saving new best net with result = 26.131708%
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 2 batch id7 done = 23.043478[%]
+
+testing on testing
+testing on training
+testing accuracy 26.251623[%]
+testing accuracy TOP 5 60.397720[%]
+training accuracy   20.220846[%]
+training accuracy TOP 5 53.072849[%]
+saving new best net with result = 26.251623%
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 2 batch id8 done = 23.478260[%]
+
+testing on testing
+testing on training
+testing accuracy 26.216648[%]
+testing accuracy TOP 5 60.392727[%]
+training accuracy   19.696213[%]
+training accuracy TOP 5 53.112820[%]
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 2 batch id9 done = 23.913044[%]
+
+testing on testing
+testing on training
+testing accuracy 25.996801[%]
+testing accuracy TOP 5 59.953033[%]
+training accuracy   20.160887[%]
+training accuracy TOP 5 53.447586[%]
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 2 batch id10 done = 24.347826[%]
+
+testing on testing
+testing on training
+testing accuracy 26.166683[%]
+testing accuracy TOP 5 60.567604[%]
+training accuracy   20.485661[%]
+training accuracy TOP 5 53.937244[%]
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 2 batch id11 done = 24.782608[%]
+
+testing on testing
+testing on training
+testing accuracy 26.611372[%]
+testing accuracy TOP 5 61.042271[%]
+training accuracy   20.500650[%]
+training accuracy TOP 5 53.447586[%]
+saving new best net with result = 26.611372%
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 2 batch id12 done = 25.217392[%]
+
+testing on testing
+testing on training
+testing accuracy 26.306585[%]
+testing accuracy TOP 5 60.482662[%]
+training accuracy   20.715500[%]
+training accuracy TOP 5 54.052162[%]
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 2 batch id13 done = 25.652174[%]
+
+testing on testing
+testing on training
+testing accuracy 26.841211[%]
+testing accuracy TOP 5 61.571899[%]
+training accuracy   20.205856[%]
+training accuracy TOP 5 54.162086[%]
+saving new best net with result = 26.841211%
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 2 batch id14 done = 26.086956[%]
+
+testing on testing
+testing on training
+testing accuracy 26.751274[%]
+testing accuracy TOP 5 60.312782[%]
+training accuracy   21.045269[%]
+training accuracy TOP 5 54.496853[%]
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 2 batch id15 done = 26.521740[%]
+
+testing on testing
+testing on training
+testing accuracy 26.791246[%]
+testing accuracy TOP 5 61.052265[%]
+training accuracy   20.865395[%]
+training accuracy TOP 5 53.972218[%]
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 2 batch id16 done = 26.956522[%]
+
+testing on testing
+testing on training
+testing accuracy 26.636354[%]
+testing accuracy TOP 5 61.377037[%]
+training accuracy   20.800440[%]
+training accuracy TOP 5 53.652443[%]
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 2 batch id17 done = 27.391304[%]
+
+testing on testing
+testing on training
+testing accuracy 26.906166[%]
+testing accuracy TOP 5 61.192165[%]
+training accuracy   20.615568[%]
+training accuracy TOP 5 54.576797[%]
+saving new best net with result = 26.906166%
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 2 batch id18 done = 27.826086[%]
+
+testing on testing
+testing on training
+testing accuracy 27.111023[%]
+testing accuracy TOP 5 61.032276[%]
+training accuracy   21.519936[%]
+training accuracy TOP 5 54.641750[%]
+saving new best net with result = 27.111023%
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 2 batch id19 done = 28.260870[%]
+
+testing on testing
+testing on training
+testing accuracy 27.260918[%]
+testing accuracy TOP 5 61.302090[%]
+training accuracy   21.275108[%]
+training accuracy TOP 5 55.256321[%]
+saving new best net with result = 27.260918%
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 2 batch id20 done = 28.695652[%]
+
+testing on testing
+testing on training
+testing accuracy 27.071051[%]
+testing accuracy TOP 5 61.412010[%]
+training accuracy   21.405016[%]
+training accuracy TOP 5 54.646748[%]
+====================================================================================================
+
+
+
+
+creating batch 21
+training epoch 2 batch id21 done = 29.130434[%]
+
+testing on testing
+testing on training
+testing accuracy 27.145998[%]
+testing accuracy TOP 5 61.796741[%]
+training accuracy   21.574898[%]
+training accuracy TOP 5 55.306286[%]
+====================================================================================================
+
+
+
+
+creating batch 22
+training epoch 2 batch id22 done = 29.565218[%]
+
+testing on testing
+testing on training
+testing accuracy 27.485760[%]
+testing accuracy TOP 5 61.581894[%]
+training accuracy   21.120216[%]
+training accuracy TOP 5 55.271309[%]
+saving new best net with result = 27.485760%
+====================================================================================================
+
+
+
+
+creating batch 0
+training epoch 3 batch id0 done = 30.000000[%]
+
+testing on testing
+testing on training
+testing accuracy 27.081043[%]
+testing accuracy TOP 5 61.546917[%]
+training accuracy   21.315079[%]
+training accuracy TOP 5 54.756672[%]
+====================================================================================================
+
+
+
+
+creating batch 1
+training epoch 3 batch id1 done = 30.434782[%]
+
+testing on testing
+testing on training
+testing accuracy 27.180973[%]
+testing accuracy TOP 5 61.511940[%]
+training accuracy   21.849705[%]
+training accuracy TOP 5 54.991505[%]
+====================================================================================================
+
+
+
+
+creating batch 2
+training epoch 3 batch id2 done = 30.869566[%]
+
+testing on testing
+testing on training
+testing accuracy 27.260918[%]
+testing accuracy TOP 5 61.347057[%]
+training accuracy   21.170181[%]
+training accuracy TOP 5 54.262016[%]
+====================================================================================================
+
+
+
+
+creating batch 3
+training epoch 3 batch id3 done = 31.304348[%]
+
+testing on testing
+testing on training
+testing accuracy 27.480764[%]
+testing accuracy TOP 5 61.796741[%]
+training accuracy   20.940342[%]
+training accuracy TOP 5 54.586788[%]
+====================================================================================================
+
+
+
+
+creating batch 4
+training epoch 3 batch id4 done = 31.739130[%]
+
+testing on testing
+testing on training
+testing accuracy 27.345858[%]
+testing accuracy TOP 5 61.906666[%]
+training accuracy   21.484961[%]
+training accuracy TOP 5 55.676025[%]
+====================================================================================================
+
+
+
+
+creating batch 5
+training epoch 3 batch id5 done = 32.173912[%]
+
+testing on testing
+testing on training
+testing accuracy 27.270910[%]
+testing accuracy TOP 5 61.881683[%]
+training accuracy   21.899670[%]
+training accuracy TOP 5 55.755970[%]
+====================================================================================================
+
+
+
+
+creating batch 6
+training epoch 3 batch id6 done = 32.608696[%]
+
+testing on testing
+testing on training
+testing accuracy 27.335865[%]
+testing accuracy TOP 5 61.786751[%]
+training accuracy   22.039572[%]
+training accuracy TOP 5 55.985809[%]
+====================================================================================================
+
+
+
+
+creating batch 7
+training epoch 3 batch id7 done = 33.043480[%]
+
+testing on testing
+testing on training
+testing accuracy 27.640652[%]
+testing accuracy TOP 5 62.201458[%]
+training accuracy   22.299391[%]
+training accuracy TOP 5 56.005795[%]
+saving new best net with result = 27.640652%
+====================================================================================================
+
+
+
+
+creating batch 8
+training epoch 3 batch id8 done = 33.478260[%]
+
+testing on testing
+testing on training
+testing accuracy 27.570700[%]
+testing accuracy TOP 5 62.101528[%]
+training accuracy   22.214451[%]
+training accuracy TOP 5 55.720997[%]
+====================================================================================================
+
+
+
+
+creating batch 9
+training epoch 3 batch id9 done = 33.913044[%]
+
+testing on testing
+testing on training
+testing accuracy 27.790546[%]
+testing accuracy TOP 5 62.191467[%]
+training accuracy   22.139502[%]
+training accuracy TOP 5 56.265614[%]
+saving new best net with result = 27.790546%
+====================================================================================================
+
+
+
+
+creating batch 10
+training epoch 3 batch id10 done = 34.347828[%]
+
+testing on testing
+testing on training
+testing accuracy 27.635654[%]
+testing accuracy TOP 5 61.756771[%]
+training accuracy   22.294394[%]
+training accuracy TOP 5 56.040771[%]
+====================================================================================================
+
+
+
+
+creating batch 11
+training epoch 3 batch id11 done = 34.782608[%]
+
+testing on testing
+testing on training
+testing accuracy 27.905466[%]
+testing accuracy TOP 5 62.061558[%]
+training accuracy   22.529230[%]
+training accuracy TOP 5 55.596085[%]
+saving new best net with result = 27.905466%
+====================================================================================================
+
+
+
+
+creating batch 12
+training epoch 3 batch id12 done = 35.217392[%]
+
+testing on testing
+testing on training
+testing accuracy 27.985411[%]
+testing accuracy TOP 5 62.436295[%]
+training accuracy   22.319376[%]
+training accuracy TOP 5 55.940842[%]
+saving new best net with result = 27.985411%
+====================================================================================================
+
+
+
+
+creating batch 13
+training epoch 3 batch id13 done = 35.652172[%]
+
+testing on testing
+testing on training
+testing accuracy 27.940441[%]
+testing accuracy TOP 5 62.281403[%]
+training accuracy   22.124514[%]
+training accuracy TOP 5 56.215649[%]
+====================================================================================================
+
+
+
+
+creating batch 14
+training epoch 3 batch id14 done = 36.086956[%]
+
+testing on testing
+testing on training
+testing accuracy 27.660637[%]
+testing accuracy TOP 5 62.451283[%]
+training accuracy   22.893974[%]
+training accuracy TOP 5 56.265614[%]
+====================================================================================================
+
+
+
+
+creating batch 15
+training epoch 3 batch id15 done = 36.521740[%]
+
+testing on testing
+testing on training
+testing accuracy 28.020386[%]
+testing accuracy TOP 5 62.536224[%]
+training accuracy   22.304386[%]
+training accuracy TOP 5 56.670330[%]
+saving new best net with result = 28.020386%
+====================================================================================================
+
+
+
+
+creating batch 16
+training epoch 3 batch id16 done = 36.956520[%]
+
+testing on testing
+testing on training
+testing accuracy 28.225243[%]
+testing accuracy TOP 5 62.401318[%]
+training accuracy   22.299391[%]
+training accuracy TOP 5 56.500450[%]
+saving new best net with result = 28.225243%
+====================================================================================================
+
+
+
+
+creating batch 17
+training epoch 3 batch id17 done = 37.391304[%]
+
+testing on testing
+testing on training
+testing accuracy 28.025383[%]
+testing accuracy TOP 5 62.361347[%]
+training accuracy   22.684120[%]
+training accuracy TOP 5 56.215649[%]
+====================================================================================================
+
+
+
+
+creating batch 18
+training epoch 3 batch id18 done = 37.826088[%]
+
+testing on testing
+testing on training
+testing accuracy 28.350155[%]
+testing accuracy TOP 5 62.761066[%]
+training accuracy   22.704107[%]
+training accuracy TOP 5 56.595383[%]
+saving new best net with result = 28.350155%
+====================================================================================================
+
+
+
+
+creating batch 19
+training epoch 3 batch id19 done = 38.260868[%]
+
+testing on testing
+testing on training
+testing accuracy 28.235235[%]
+testing accuracy TOP 5 62.776058[%]
+training accuracy   22.704107[%]
+training accuracy TOP 5 56.645348[%]
+====================================================================================================
+
+
+
+
+creating batch 20
+training epoch 3 batch id20 done = 38.695652[%]
+

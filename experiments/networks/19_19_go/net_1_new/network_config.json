@@ -1,0 +1,194 @@
+{
+    "hyperparameters" :
+    {
+        "dropout"           : 0.5,
+        "lambda1"           : 0.00000001,
+        "lambda2"           : 0.00000001,
+        "learning_rate"     : 0.0002,
+        "minibatch_size"    : 128
+    },
+
+    "layers" :
+    [
+
+
+
+
+
+
+
+
+
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [1, 1, 128]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "crop"
+        },
+
+
+
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 32]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [1, 1, 128]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "crop"
+        },
+
+
+
+
+
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [1, 1, 256]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "crop"
+        },
+
+
+
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "dense convolution",
+            "shape" : [3, 3, 64]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "convolution",
+            "shape" : [1, 1, 256]
+        },
+        {
+            "type" : "elu"
+        },
+        {
+            "type" : "crop"
+        },
+
+
+        {
+            "type" : "dropout"
+        },
+        {
+            "type" : "output"
+        }
+    ]
+}
