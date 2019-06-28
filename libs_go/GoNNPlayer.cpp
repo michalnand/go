@@ -18,12 +18,13 @@ GoNNPlayer::GoNNPlayer(std::string config_file_name, unsigned int board_size)
 
 	width 	= board_size + 2*padding;
 	height 	= board_size + 2*padding;
-	depth = 4;
+	depth 	= 4;
 
 	Shape input_shape(width, height, depth);
 	Shape output_shape(1, 1, board_size*board_size + 1);
 
-	nn = new CNN(config.result["network_config_file_name"].asString(), input_shape, output_shape);
+	std::string network_config_file_name = config.result["network_config_file_name"].asString();
+	nn = new CNN(network_config_file_name, input_shape, output_shape);
 	nn_output.resize(output_shape.size());
 }
 

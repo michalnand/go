@@ -4,7 +4,7 @@
 
   "noise_level" : 0.05,
 
-  "training_positions_count"  : 5000000,
+  "training_positions_count"  : 50000,
   "testing_positions_count"   : 20000,
 
   "training_sgf"  :

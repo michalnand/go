@@ -3,5 +3,5 @@
   "top_moves_count"   : 4,
   "moves_decay"       : 3,
 
-  "network_config_file_name"  : "networks/9_9_go/net_0/trained/cnn_config.json"
+  "network_config_file_name"  : "networks/9_9_go/net_0/trained/network_config.json"
 }
