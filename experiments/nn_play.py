@@ -20,7 +20,7 @@ trial._print()
 
 
 player_a_file_name = "networks/9_9_go/player_0.json"
-player_b_file_name = "networks/9_9_go/player_0.json"
+player_b_file_name = "networks/9_9_go/player_1.json"
 
 board_size = 9
 
